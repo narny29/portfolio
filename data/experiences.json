@@ -1,0 +1,46 @@
+{
+  "experiences": [
+    {
+      "id": "1",
+      "subject": "Senior Frontend Developer - TechCorp",
+      "preview": "Led frontend development for multiple web applications, mentored junior developers, and implemented best practices for code quality and performance.",
+      "content": "As a Senior Frontend Developer at TechCorp, I was responsible for leading the development of multiple web applications using React, TypeScript, and modern frontend technologies. Key achievements include reducing page load times by 40% through optimization, implementing a design system used across 10+ applications, and mentoring 5 junior developers. I also introduced automated testing practices that increased code coverage to 85% and reduced bug reports by 60%.",
+      "technologies": ["React", "TypeScript", "Redux", "Jest", "Webpack"],
+      "links": {
+        "company": "https://techcorp.com"
+      },
+      "date": "2022-03-01",
+      "starred": false,
+      "read": false,
+      "folder": "sent"
+    },
+    {
+      "id": "2",
+      "subject": "Full Stack Developer - StartupXYZ",
+      "preview": "Built and maintained the company's main product, a SaaS platform with 10,000+ users, handling both frontend and backend development.",
+      "content": "At StartupXYZ, I was the primary developer for the company's flagship SaaS product. I built the entire application from scratch using Node.js, React, and PostgreSQL. The platform grew to serve over 10,000 users and generated $500K in annual revenue. I implemented features like user authentication, subscription management, analytics dashboard, and API integrations with third-party services.",
+      "technologies": ["Node.js", "React", "PostgreSQL", "AWS", "Stripe"],
+      "links": {
+        "company": "https://startupxyz.com"
+      },
+      "date": "2021-06-15",
+      "starred": false,
+      "read": false,
+      "folder": "sent"
+    },
+    {
+      "id": "3",
+      "subject": "Junior Developer - WebAgency",
+      "preview": "Developed responsive websites and web applications for various clients, gaining experience with multiple frameworks and technologies.",
+      "content": "Started my career at WebAgency where I developed responsive websites and web applications for diverse clients. I worked with various technologies including WordPress, PHP, JavaScript, and CSS. Projects included e-commerce sites, corporate websites, and custom web applications. This role helped me develop strong fundamentals in web development and client communication.",
+      "technologies": ["PHP", "WordPress", "JavaScript", "CSS", "MySQL"],
+      "links": {
+        "company": "https://webagency.com"
+      },
+      "date": "2020-01-10",
+      "starred": false,
+      "read": false,
+      "folder": "sent"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "subject": "Programming Languages",
+      "preview": "Experienced in Java, Python, Scala, and Node.js. Proficient in Solidity for blockchain applications.",
+      "content": "I am proficient in several programming languages, with extensive experience in **Java**, **Python**, and **Scala**. I have used **Node.js** for backend services and am skilled in **Solidity** for developing smart contracts. My expertise allows me to work on various parts of the technology stack and solve diverse programming challenges.",
+      "technologies": ["Java", "Python", "Scala", "Node.js", "Solidity"],
+      "links": {},
+      "date": "2024-01-01",
+      "starred": false,
+      "read": false,
+      "folder": "drafts"
+    },
+    {
+      "id": "2",
+      "subject": "Cloud & DevOps",
+      "preview": "Experienced with AWS and GCP, Docker, Kubernetes, and CI/CD pipelines. Knowledgeable in monitoring and infrastructure.",
+      "content": "I have hands-on experience with cloud platforms including **AWS** and **GCP**. I am skilled in containerization using **Docker** and orchestration with **Kubernetes**. I have also worked with **Prometheus** for monitoring and **Terraform** for infrastructure as code. My experience includes setting up CI/CD pipelines to ensure automated and reliable deployments.",
+      "technologies": ["AWS", "GCP", "Docker", "Kubernetes", "Prometheus", "Terraform"],
+      "links": {},
+      "date": "2024-01-01",
+      "starred": false,
+      "read": false,
+      "folder": "drafts"
+    },
+    {
+      "id": "3",
+      "subject": "Databases & Frameworks",
+      "preview": "Proficient in SQL and various frameworks including Django and Play Framework. Experience with big data technologies.",
+      "content": "My database skills include working with **SQL**. I am experienced with web frameworks such as **Django** and the **Play Framework**. I also have a solid background in big data technologies like **Spark**, **Hadoop**, and **HDFS**, which I have used for data collection and processing.",
+      "technologies": ["SQL", "Django", "Play Framework", "Spark", "Hadoop", "HDFS"],
+      "links": {},
+      "date": "2024-01-01",
+      "starred": false,
+      "read": false,
+      "folder": "drafts"
+    }
+  ]
+}

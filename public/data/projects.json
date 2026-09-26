@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "subject": "Odio, Award Winning Music Creation app",
+      "preview": "A Web Platform for converting simple Humming or Beat-Boxing to Instrumental Music, recognized at Microsoft Code.Fun.Do and Imagine Cup.",
+      "content": "Odio is a web platform that converts simple humming or beat-boxing to instrumental music. The application uses a Keras LSTM RNN Beat Classifier with MFCC Features and the Yin PDA Algorithm for pitch detection, with Keras.js enabling real-time prediction in the browser. The project was awarded 2nd Runner Up at Microsoft Code.Fun.Do in 2017 and was a National Qualifier for the Microsoft Imagine Cup.",
+      "technologies": ["Keras", "LSTM", "RNN", "Keras.js"],
+      "links": {},
+      "date": "2017-10-01",
+      "starred": false,
+      "read": false,
+      "folder": "inbox"
+    },
+    {
+      "id": "2",
+      "subject": "AllMeds, Mitigating Counterfeit Medicines",
+      "preview": "A platform using Solidity smart-contracts to capture medicine supply chain data and allow end-users to validate their medicine.",
+      "content": "AllMeds is a project designed to mitigate counterfeit medicines by leveraging blockchain technology. I created Solidity smart-contracts to capture data across the medicine supply chain. This data is made accessible to end-users through a web interface, where they can validate their medicine using its unique registration ID.",
+      "technologies": ["Solidity", "Truffle", "React.js"],
+      "links": {},
+      "date": "2021-03-01",
+      "starred": false,
+      "read": false,
+      "folder": "inbox"
+    }
+  ]
+}

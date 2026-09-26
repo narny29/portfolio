@@ -1,0 +1,36 @@
+{
+  "contact": [
+    {
+      "id": "1",
+      "subject": "Contact Information",
+      "preview": "Get in touch for collaboration opportunities, job inquiries, or just to say hello.",
+      "content": "I'm always open to new opportunities and collaborations. Whether you're looking for a developer for your next project, have a job opportunity, or just want to connect, feel free to reach out. I am particularly interested in software development and engineering roles. I am based in Bengaluru, India and am available for remote work opportunities worldwide.",
+      "technologies": ["Email", "LinkedIn"],
+      "links": {
+        "email": "narny29@gmail.com",
+        "linkedin": "https://linkedin.com/in/yourprofile",
+        "github": "https://github.com/yourusername",
+        "portfolio": "https://yourportfolio.com"
+      },
+      "date": "2024-01-01",
+      "starred": true,
+      "read": false,
+      "folder": "trash"
+    },
+    {
+      "id": "2",
+      "subject": "About Me",
+      "preview": "Software Developer with a passion for designing scalable systems and solving complex problems.",
+      "content": "I am a passionate Software Developer with a strong background in designing and implementing scalable systems. My expertise lies in improving system performance and reliability, as demonstrated by my work on alerting and self-healing systems, and my experience in optimizing backup processes and cloud expenditure. I enjoy tackling complex technical challenges and contributing to impactful projects. When I'm not coding, I'm often exploring new technologies or sharing knowledge with the developer community.",
+      "technologies": ["Java", "Python", "Problem Solving", "Scalable Systems"],
+      "links": {
+        "resume": "https://yourportfolio.com/resume.pdf",
+        "blog": "https://yourblog.com"
+      },
+      "date": "2024-01-01",
+      "starred": false,
+      "read": true,
+      "folder": "trash"
+    }
+  ]
+}

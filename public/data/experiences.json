@@ -1,0 +1,135 @@
+{
+  "experiences": [
+    {
+      "id": "1",
+      "subject": "Software Developer - Concentric.Al",
+      "preview": "Designed and implemented an end-to-end alerting and self-healing system for a service monitoring SMB activity, reducing downtime from 30% to under 5%.",
+      "content": "As a Software Developer at Concentric.Al, I designed and implemented an end-to-end alerting and self-healing system for a service monitoring SMB activity, which reduced downtime from 30% to under 5% and improved uptime SLAs. I built scalable support to ingest user activity from NetApp ONTAP file servers using Java and Kubernetes, integrating with the company's data classification pipeline. I also introduced structured metrics and health checks across backend components to enable real-time visibility and faster anomaly detection. Additionally, I transitioned Microsoft OneDrive event handling from a 2-hour batch process to real-time ingestion, reducing lag by over 95%.",
+      "technologies": ["Java", "Kubernetes"],
+      "links": {},
+      "date": "2024-10-01",
+      "starred": false,
+      "read": false,
+      "folder": "sent",
+      "projects": [
+        {
+          "id": "1-1",
+          "name": "Alerting & Self-Healing System",
+          "description": "Designed and implemented an end-to-end alerting and self-healing system for a service monitoring SMB activity. It would check the status fo the kubernetes pod where this service was deployed and proactively enable it if its down. Reduced downtime from 30% to under 5%, improving uptime SLAS."
+        },
+        {
+          "id": "1-2",
+          "name": "NetApp ONTAP Integration",
+          "description": "Built scalable support for ingesting user activity from NetApp ONTAP file servers, integrating with the company's unified data classification pipeline."
+        },
+        {
+          "id": "1-3",
+          "name": "Backend Metrics & Health Checks",
+          "description": "Introduced structured metrics and health checks across backend components, enabling real-time visibility, early anomaly detection, and faster MTTR."
+        },
+        {
+          "id": "1-4",
+          "name": "Real-time OneDrive Event Handling",
+          "description": "Transitioned Microsoft OneDrive event handling from a 2-hour batch process to real-time ingestion using webhook-triggered log pipelines, reducing lag by >95%."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "subject": "Software Developer - Yugabyte",
+      "preview": "Migrated the Backup/Restore process from a script-based to a controller-based system, reducing the failure rate from over 20% to less than 1% and tripling the speed.",
+      "content": "At Yugabyte, I migrated the Backup/Restore process from a script-based to a controller-based system, which made the workflow idempotent. This significantly reduced the backup failure rate from over 20% to under 1% and tripled the process speed. I implemented the incremental backups feature, which reduced backup time and storage needs for customers with large datasets, and added CLI support. I also implemented alerts and monitoring for failed Backup/Restore tasks to allow for faster debugging. Additionally, I developed a feature for PostgreSQL logs to be dumped to a data sink, granting customers access to logs for debugging purposes.",
+      "technologies": ["Java", "Play Framework", "Docker", "DataDog"],
+      "links": {},
+      "date": "2022-09-01",
+      "starred": false,
+      "read": false,
+      "folder": "sent",
+      "projects": [
+        {
+          "id": "2-1",
+          "name": "Controller-Based Backup/Restore System",
+          "description": "Migrated the Backup/Restore process from a script-based to a controller-based system, making the workflow idempotent. Also used S3 parallel upload instead of sequential one. This change reduced the failure rate of backups from over 20% to less than 1% and tripled the backup speed."
+        },
+        {
+          "id": "2-2",
+          "name": "Incremental Backup Feature",
+          "description": "Added the feature of incremental backups, significantly reducing backup time and storage requirements. This enhancement benefited customers needing frequent backups for large datasets. Additionally, CLI support was implemented."
+        },
+        {
+          "id": "2-3",
+          "name": "Backup/Restore Monitoring",
+          "description": "Implemented alerts and monitoring for failed Backup/Restore tasks, enabling faster debugging and resolution of issues."
+        },
+        {
+          "id": "2-4",
+          "name": "PostgreSQL Log Dumping",
+          "description": "Added the feature of PostgreSQL logs to be dumped to a data sink. Since this is a fully managed service, customers previously lacked access to logs, making issue debugging challenging."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "subject": "Software Engineer - Backend - Zeni.ai",
+      "preview": "Added Microsoft OAuth for user login, which was adopted by 37% of newly onboarded customers in the first six months.",
+      "content": "As a Backend Software Engineer at Zeni.ai, I integrated Microsoft OAuth for user login, which was utilized by 37% of new customers within the first six months. I created a Central Hub to provide operational and management information for all companies associated with a user, which improved the homepage load time by 40%. I also automated the tenant onboarding workflow for a customer, cutting the process time from 2 days down to 3-4 hours. My role included creating and maintaining APIs for financial reports and insights on the dashboard, providing customers a more holistic view of their financial status.",
+      "technologies": ["Azure", "OAuth", "GCP", "Redis", "WebApp2"],
+      "links": {},
+      "date": "2020-06-01",
+      "starred": false,
+      "read": false,
+      "folder": "sent",
+      "projects": [
+        {
+          "id": "3-1",
+          "name": "Microsoft OAuth Integration",
+          "description": "Added Microsoft OAuth for users to login with Microsoft. 37% of the newly onboarded customers in the next 6 months were using Microsoft login."
+        },
+        {
+          "id": "3-2",
+          "name": "Central Hub for Management",
+          "description": "Created a Central Hub that would provide the operational and management information for all the companies associated with the user. Improved the homepage load time by 40%."
+        },
+        {
+          "id": "3-3",
+          "name": "Tenant Onboarding Automation",
+          "description": "Automated the tenant onboarding workflow for a customer, reducing the process time from 2 days to 3-4 hours."
+        },
+        {
+          "id": "3-4",
+          "name": "Financial Reporting APIs",
+          "description": "Created and maintained APIs to provide financial reports and insights in the dashboard. This helped the customers have a more holistic view of their financial status."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "subject": "Software Developer Engineer - Amazon India",
+      "preview": "Created a scalable Data collector to fetch user data for training models, reducing the time from 2 days to 2-3 hours.",
+      "content": "At Amazon India, I developed a scalable data collector to fetch user data across various marketplaces for training machine learning models. This new collector reduced the data ingestion time from 2 days to just 2-3 hours. I optimized the team's AWS expenditure, cutting expenses by 60% through scripts that prevented resource leakage and ensured EMR instances were used optimally. Additionally, I automated the entire pipeline for generating an ML model—from data collection and processing to training and production deployment—to predict user network connectivity.",
+      "technologies": ["Scala", "EMR", "AWS"],
+      "links": {},
+      "date": "2019-06-01",
+      "starred": false,
+      "read": false,
+      "folder": "sent",
+      "projects": [
+        {
+          "id": "4-1",
+          "name": "Scalable Data Collector",
+          "description": "Created a scalable Data collector to fetch User data for various marketplaces. This was used to ingest data for training various models. Helped reduce the time from 2 days for a CLI to 2-3 hours."
+        },
+        {
+          "id": "4-2",
+          "name": "AWS Cost Optimization",
+          "description": "Optimized the AWS expenditure and wastage for the team. Help reduce the expenses by 60%. Added scripts to ensure there was no resource leakage, and the EMR instances were used optimally."
+        },
+        {
+          "id": "4-3",
+          "name": "ML Model Automation Pipeline",
+          "description": "Automated all the stages to generate a ML model, right from data collection, processing of data, training, performance checks and using it in production to predict if a user is having a Slow or a Fast network connectivity."
+        }
+      ]
+    }
+  ]
+}
